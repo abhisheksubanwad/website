@@ -1,0 +1,51 @@
+/* contactModal.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    padding: 40px; /* Increased padding */
+    border-radius: 10px; /* Increased border radius */
+    width: 60%; /* Adjusted width */
+    max-width: 600px; /* Set maximum width */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.name-inputs {
+    display: flex;
+    justify-content: space-between; /* Adjusted to space between */
+    margin-bottom: 15px; /* Increased margin */
+}
+
+.name-inputs input {
+    width: 48%; /* Adjusted input width */
+}
+
+.checkbox {
+    margin-top: 15px; /* Increased margin */
+}
+
+.contact-button {
+    margin-top: 100px; /* Add margin between checkbox and button */
+    background-color: rgb(147, 16, 38);
+}
+
+.close-btn {
+    margin-top: 20px; /* Increased margin */
+    background-color: rgb(219, 132, 170);
+}
